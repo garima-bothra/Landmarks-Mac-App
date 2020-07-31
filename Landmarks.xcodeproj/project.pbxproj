@@ -35,6 +35,7 @@
 		8699254B24D47E3B0015D919 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254624D47E3B0015D919 /* Hike.swift */; };
 		8699254C24D47E3B0015D919 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254724D47E3B0015D919 /* Profile.swift */; };
 		8699255024D47F0D0015D919 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254F24D47F0D0015D919 /* LandmarkRow.swift */; };
+		8699255224D481200015D919 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699255124D481200015D919 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		8699254624D47E3B0015D919 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		8699254724D47E3B0015D919 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		8699254F24D47F0D0015D919 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		8699255124D481200015D919 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			children = (
 				8699250F24D47D9B0015D919 /* ContentView.swift */,
 				8699254F24D47F0D0015D919 /* LandmarkRow.swift */,
+				8699255124D481200015D919 /* LandmarkList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				8699254824D47E3B0015D919 /* UserData.swift in Sources */,
 				8699251024D47D9B0015D919 /* ContentView.swift in Sources */,
 				8699254C24D47E3B0015D919 /* Profile.swift in Sources */,
+				8699255224D481200015D919 /* LandmarkList.swift in Sources */,
 				8699250E24D47D9B0015D919 /* AppDelegate.swift in Sources */,
 				8699254924D47E3B0015D919 /* Data.swift in Sources */,
 				8699255024D47F0D0015D919 /* LandmarkRow.swift in Sources */,

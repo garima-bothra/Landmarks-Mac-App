@@ -34,6 +34,7 @@
 		8699254A24D47E3B0015D919 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254524D47E3B0015D919 /* Landmark.swift */; };
 		8699254B24D47E3B0015D919 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254624D47E3B0015D919 /* Hike.swift */; };
 		8699254C24D47E3B0015D919 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254724D47E3B0015D919 /* Profile.swift */; };
+		8699255024D47F0D0015D919 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699254F24D47F0D0015D919 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		8699254524D47E3B0015D919 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		8699254624D47E3B0015D919 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		8699254724D47E3B0015D919 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8699254F24D47F0D0015D919 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				8699250D24D47D9B0015D919 /* AppDelegate.swift */,
-				8699250F24D47D9B0015D919 /* ContentView.swift */,
+				8699254E24D47EF70015D919 /* View */,
 				8699254D24D47E460015D919 /* Model */,
 				8699254224D47E210015D919 /* Resources */,
 				8699251124D47D9D0015D919 /* Assets.xcassets */,
@@ -154,6 +156,15 @@
 				8699254324D47E3A0015D919 /* UserData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8699254E24D47EF70015D919 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8699250F24D47D9B0015D919 /* ContentView.swift */,
+				8699254F24D47F0D0015D919 /* LandmarkRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 				8699254C24D47E3B0015D919 /* Profile.swift in Sources */,
 				8699250E24D47D9B0015D919 /* AppDelegate.swift in Sources */,
 				8699254924D47E3B0015D919 /* Data.swift in Sources */,
+				8699255024D47F0D0015D919 /* LandmarkRow.swift in Sources */,
 				8699254A24D47E3B0015D919 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
